@@ -3,7 +3,7 @@ const certificates = [
     title: "Programming In Java",
     issuer: "IIT Kharagpur",
     image: "/certificates/JavaNPTEL.jpg",
-    pdf: "/certificates/JavaNPTEL.pdf",
+    pdf: `${import.meta.env.BASE_URL}certificates/JavaNPTEL.pdf`,
   },
   {
     title: "AI TOOLS WORKSHOP",

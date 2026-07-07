@@ -6,7 +6,7 @@ const projects = [
     tech: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/parthingle826-web/CrunchKart.git",
     live: "https://parthingle826-web.github.io/CrunchKart/",
-    image: "/projects/crunchkart-home-1.png",
+    image: `${import.meta.env.BASE_URL}projects/crunchkart-home-1.png`,
      
   
   },
@@ -28,7 +28,7 @@ const projects = [
     tech: ["React", "Vite", "Framer Motion", "CSS"],
     github: "",
     live: "",
-    image: "/projects/portfolio.png",
+   image: `${import.meta.env.BASE_URL}projects/portfolio.png`,
   },
 ];
 

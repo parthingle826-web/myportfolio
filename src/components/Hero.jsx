@@ -40,10 +40,9 @@ const Hero = () => {
           </a>
 
           <a
-  href="/Parth-Resume.pdf"
+  href={`${import.meta.env.BASE_URL}Parth-Resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
-  className="btn btn-outline"
 >
   View Resume
 </a>
@@ -59,7 +58,7 @@ const Hero = () => {
         }}
       >
         <img
-          src="/Self-Photograph.jpg"
+         src={`${import.meta.env.BASE_URL}Self-Photograph.jpg`}
           alt="Parth Ingle"
         />
       </motion.div>
