@@ -39,10 +39,11 @@ const Hero = () => {
             View Projects
           </a>
 
-          <a
+         <a
   href={`${import.meta.env.BASE_URL}Parth-Resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
+  className="btn btn-outline"
 >
   View Resume
 </a>
