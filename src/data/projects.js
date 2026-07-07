@@ -26,8 +26,8 @@ const projects = [
     description:
       "A responsive personal portfolio showcasing projects, certifications, technical skills, and achievements with modern UI/UX and smooth animations.",
     tech: ["React", "Vite", "Framer Motion", "CSS"],
-    github: "",
-    live: "",
+    github: "https://github.com/parthingle826-web/myportfolio.git",
+    live: "https://parthingle826-web.github.io/myportfolio/",
    image: `${import.meta.env.BASE_URL}projects/portfolio.png`,
   },
 ];
