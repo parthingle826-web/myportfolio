@@ -1,7 +1,7 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
-  console.log(project.title, project.images);
+  console.log(project.title, project.image);
  return (
     <div className="glass project-card">
 
